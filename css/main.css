@@ -1,0 +1,53 @@
+body main section#qodir .qodir {
+  background-image: linear-gradient(to right, white, purple);
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  background-position: right; }
+body main section#main .nav .nav-item .nav-link {
+  color: #F1F1F1;
+  font-size: 16px;
+  position: relative;
+  border-radius: 60px; }
+  body main section#main .nav .nav-item .nav-link:hover {
+    background-color: #F1B301; }
+  body main section#main .nav .nav-item .nav-link.active {
+    background-color: #F1B301;
+    border-radius: 60px; }
+body main section#zem .mobil {
+  background-image: url("../images/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative; }
+
+@media (min-width: 10px) and (max-width: 776px) {
+  body section#qodir .qodir {
+    background-image: linear-gradient(white, purple);
+    background-repeat: no-repeat;
+    background-position: left; }
+  body section#qodir header .container .row {
+    overflow-x: scroll; }
+  body section#main .container ul {
+    flex-direction: column;
+    align-items: center; }
+  body section#zem .mobil .container .sori img {
+    height: 10vw;
+    object-fit: contain; }
+  body section#zem .mobil .container .tel img {
+    height: 20vw;
+    object-fit: contain;
+    top: -50px;
+    right: 10px; } }
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0; }
+
+  .right {
+    width: 100%; } }
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
